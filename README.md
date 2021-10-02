@@ -1,3 +1,3 @@
 # SoundML
 
-A description of this package.
+Using built-in machine learning to classify sounds.
