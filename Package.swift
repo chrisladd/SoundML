@@ -17,6 +17,10 @@ let package = Package(
             dependencies: []),
         .testTarget(
             name: "SoundMLTests",
-            dependencies: ["SoundML"]),
+            dependencies: ["SoundML"],
+            resources: [
+                .copy("fixtures")
+            ]
+        )
     ]
 )
