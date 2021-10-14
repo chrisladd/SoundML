@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SoundML",
+        "repositoryURL": "https://github.com/chrisladd/SoundML",
+        "state": {
+          "branch": "main",
+          "revision": "eee11906f2248b031b55250a0e38e448bf7e264f",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
