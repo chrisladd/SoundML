@@ -388,3 +388,7 @@ Below is an alphabetized list of sounds the Analyzer can recognize. You may pass
 - `yodeling`
 - `zipper`
 - `zither`
+
+## Further Reading
+
+This project was adapted from Apple’s [excellent sample project](https://developer.apple.com/documentation/soundanalysis/classifying_live_audio_input_with_a_built-in_sound_classifier).
