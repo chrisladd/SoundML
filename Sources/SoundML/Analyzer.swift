@@ -64,7 +64,9 @@ public class Analyzer: NSObject {
     fileprivate let analysisQueue: DispatchQueue
     
     deinit {
-        audioStreamAnalyzer?.removeAllRequests()
+        analysisQueue.sync {
+            audioStreamAnalyzer?.removeAllRequests()
+        }
     }
 }
 
